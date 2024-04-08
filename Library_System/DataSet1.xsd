@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Library_System.Properties.Settings.GlobalReference.Default.Database1ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Membertbl" msprop:Generator_TableClassName="MembertblDataTable" msprop:Generator_TableVarName="tableMembertbl" msprop:Generator_TablePropName="Membertbl" msprop:Generator_RowDeletingName="MembertblRowDeleting" msprop:Generator_RowChangingName="MembertblRowChanging" msprop:Generator_RowEvHandlerName="MembertblRowChangeEventHandler" msprop:Generator_RowDeletedName="MembertblRowDeleted" msprop:Generator_UserTableName="Membertbl" msprop:Generator_RowChangedName="MembertblRowChanged" msprop:Generator_RowEvArgName="MembertblRowChangeEvent" msprop:Generator_RowClassName="MembertblRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member_ID" msprop:Generator_ColumnVarNameInTable="columnMember_ID" msprop:Generator_ColumnPropNameInRow="Member_ID" msprop:Generator_ColumnPropNameInTable="Member_IDColumn" msprop:Generator_UserColumnName="Member_ID" type="xs:int" />
+              <xs:element name="Member_Type" msprop:Generator_ColumnVarNameInTable="columnMember_Type" msprop:Generator_ColumnPropNameInRow="Member_Type" msprop:Generator_ColumnPropNameInTable="Member_TypeColumn" msprop:Generator_UserColumnName="Member_Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Member_Name" msprop:Generator_ColumnVarNameInTable="columnMember_Name" msprop:Generator_ColumnPropNameInRow="Member_Name" msprop:Generator_ColumnPropNameInTable="Member_NameColumn" msprop:Generator_UserColumnName="Member_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Department" msprop:Generator_ColumnVarNameInTable="columnDepartment" msprop:Generator_ColumnPropNameInRow="Department" msprop:Generator_ColumnPropNameInTable="DepartmentColumn" msprop:Generator_UserColumnName="Department" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Member_Contact" msprop:Generator_ColumnVarNameInTable="columnMember_Contact" msprop:Generator_ColumnPropNameInRow="Member_Contact" msprop:Generator_ColumnPropNameInTable="Member_ContactColumn" msprop:Generator_UserColumnName="Member_Contact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Member_Email" msprop:Generator_ColumnVarNameInTable="columnMember_Email" msprop:Generator_ColumnPropNameInRow="Member_Email" msprop:Generator_ColumnPropNameInTable="Member_EmailColumn" msprop:Generator_UserColumnName="Member_Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Addbooktbl" msprop:Generator_TableClassName="AddbooktblDataTable" msprop:Generator_TableVarName="tableAddbooktbl" msprop:Generator_TablePropName="Addbooktbl" msprop:Generator_RowDeletingName="AddbooktblRowDeleting" msprop:Generator_RowChangingName="AddbooktblRowChanging" msprop:Generator_RowEvHandlerName="AddbooktblRowChangeEventHandler" msprop:Generator_RowDeletedName="AddbooktblRowDeleted" msprop:Generator_UserTableName="Addbooktbl" msprop:Generator_RowChangedName="AddbooktblRowChanged" msprop:Generator_RowEvArgName="AddbooktblRowChangeEvent" msprop:Generator_RowClassName="AddbooktblRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Book_id" msprop:Generator_ColumnVarNameInTable="columnBook_id" msprop:Generator_ColumnPropNameInRow="Book_id" msprop:Generator_ColumnPropNameInTable="Book_idColumn" msprop:Generator_UserColumnName="Book_id" type="xs:int" />
+              <xs:element name="Book_name" msprop:Generator_ColumnVarNameInTable="columnBook_name" msprop:Generator_ColumnPropNameInRow="Book_name" msprop:Generator_ColumnPropNameInTable="Book_nameColumn" msprop:Generator_UserColumnName="Book_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_author_name" msprop:Generator_ColumnVarNameInTable="columnBook_author_name" msprop:Generator_ColumnPropNameInRow="Book_author_name" msprop:Generator_ColumnPropNameInTable="Book_author_nameColumn" msprop:Generator_UserColumnName="Book_author_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_publication" msprop:Generator_ColumnVarNameInTable="columnBook_publication" msprop:Generator_ColumnPropNameInRow="Book_publication" msprop:Generator_ColumnPropNameInTable="Book_publicationColumn" msprop:Generator_UserColumnName="Book_publication" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_price" msprop:Generator_ColumnVarNameInTable="columnBook_price" msprop:Generator_ColumnPropNameInRow="Book_price" msprop:Generator_ColumnPropNameInTable="Book_priceColumn" msprop:Generator_UserColumnName="Book_price" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_quantity" msprop:Generator_ColumnVarNameInTable="columnBook_quantity" msprop:Generator_ColumnPropNameInRow="Book_quantity" msprop:Generator_ColumnPropNameInTable="Book_quantityColumn" msprop:Generator_UserColumnName="Book_quantity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Available_quantity" msprop:Generator_ColumnVarNameInTable="columnAvailable_quantity" msprop:Generator_ColumnPropNameInRow="Available_quantity" msprop:Generator_ColumnPropNameInTable="Available_quantityColumn" msprop:Generator_UserColumnName="Available_quantity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Issuebooktbl" msprop:Generator_TableClassName="IssuebooktblDataTable" msprop:Generator_TableVarName="tableIssuebooktbl" msprop:Generator_TablePropName="Issuebooktbl" msprop:Generator_RowDeletingName="IssuebooktblRowDeleting" msprop:Generator_RowChangingName="IssuebooktblRowChanging" msprop:Generator_RowEvHandlerName="IssuebooktblRowChangeEventHandler" msprop:Generator_RowDeletedName="IssuebooktblRowDeleted" msprop:Generator_UserTableName="Issuebooktbl" msprop:Generator_RowChangedName="IssuebooktblRowChanged" msprop:Generator_RowEvArgName="IssuebooktblRowChangeEvent" msprop:Generator_RowClassName="IssuebooktblRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="M_id" msprop:Generator_ColumnVarNameInTable="columnM_id" msprop:Generator_ColumnPropNameInRow="M_id" msprop:Generator_ColumnPropNameInTable="M_idColumn" msprop:Generator_UserColumnName="M_id" type="xs:int" />
+              <xs:element name="M_Type" msprop:Generator_ColumnVarNameInTable="columnM_Type" msprop:Generator_ColumnPropNameInRow="M_Type" msprop:Generator_ColumnPropNameInTable="M_TypeColumn" msprop:Generator_UserColumnName="M_Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Name" msprop:Generator_ColumnVarNameInTable="columnM_Name" msprop:Generator_ColumnPropNameInRow="M_Name" msprop:Generator_ColumnPropNameInTable="M_NameColumn" msprop:Generator_UserColumnName="M_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Department" msprop:Generator_ColumnVarNameInTable="columnDepartment" msprop:Generator_ColumnPropNameInRow="Department" msprop:Generator_ColumnPropNameInTable="DepartmentColumn" msprop:Generator_UserColumnName="Department" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Contact" msprop:Generator_ColumnVarNameInTable="columnM_Contact" msprop:Generator_ColumnPropNameInRow="M_Contact" msprop:Generator_ColumnPropNameInTable="M_ContactColumn" msprop:Generator_UserColumnName="M_Contact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Email" msprop:Generator_ColumnVarNameInTable="columnM_Email" msprop:Generator_ColumnPropNameInRow="M_Email" msprop:Generator_ColumnPropNameInTable="M_EmailColumn" msprop:Generator_UserColumnName="M_Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Name" msprop:Generator_ColumnVarNameInTable="columnBook_Name" msprop:Generator_ColumnPropNameInRow="Book_Name" msprop:Generator_ColumnPropNameInTable="Book_NameColumn" msprop:Generator_UserColumnName="Book_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Issue_Date" msprop:Generator_ColumnVarNameInTable="columnBook_Issue_Date" msprop:Generator_ColumnPropNameInRow="Book_Issue_Date" msprop:Generator_ColumnPropNameInTable="Book_Issue_DateColumn" msprop:Generator_UserColumnName="Book_Issue_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Due_Date" msprop:Generator_ColumnVarNameInTable="columnDue_Date" msprop:Generator_ColumnPropNameInRow="Due_Date" msprop:Generator_ColumnPropNameInTable="Due_DateColumn" msprop:Generator_UserColumnName="Due_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Returnbooktbl" msprop:Generator_TableClassName="ReturnbooktblDataTable" msprop:Generator_TableVarName="tableReturnbooktbl" msprop:Generator_RowChangedName="ReturnbooktblRowChanged" msprop:Generator_TablePropName="Returnbooktbl" msprop:Generator_RowDeletingName="ReturnbooktblRowDeleting" msprop:Generator_RowChangingName="ReturnbooktblRowChanging" msprop:Generator_RowEvHandlerName="ReturnbooktblRowChangeEventHandler" msprop:Generator_RowDeletedName="ReturnbooktblRowDeleted" msprop:Generator_RowClassName="ReturnbooktblRow" msprop:Generator_UserTableName="Returnbooktbl" msprop:Generator_RowEvArgName="ReturnbooktblRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="M_id" msprop:Generator_ColumnVarNameInTable="columnM_id" msprop:Generator_ColumnPropNameInRow="M_id" msprop:Generator_ColumnPropNameInTable="M_idColumn" msprop:Generator_UserColumnName="M_id" type="xs:int" minOccurs="0" />
+              <xs:element name="M_type" msprop:Generator_ColumnVarNameInTable="columnM_type" msprop:Generator_ColumnPropNameInRow="M_type" msprop:Generator_ColumnPropNameInTable="M_typeColumn" msprop:Generator_UserColumnName="M_type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_name" msprop:Generator_ColumnVarNameInTable="columnM_name" msprop:Generator_ColumnPropNameInRow="M_name" msprop:Generator_ColumnPropNameInTable="M_nameColumn" msprop:Generator_UserColumnName="M_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dept" msprop:Generator_ColumnVarNameInTable="columnDept" msprop:Generator_ColumnPropNameInRow="Dept" msprop:Generator_ColumnPropNameInTable="DeptColumn" msprop:Generator_UserColumnName="Dept" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_contact" msprop:Generator_ColumnVarNameInTable="columnM_contact" msprop:Generator_ColumnPropNameInRow="M_contact" msprop:Generator_ColumnPropNameInTable="M_contactColumn" msprop:Generator_UserColumnName="M_contact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_email" msprop:Generator_ColumnVarNameInTable="columnM_email" msprop:Generator_ColumnPropNameInRow="M_email" msprop:Generator_ColumnPropNameInTable="M_emailColumn" msprop:Generator_UserColumnName="M_email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_name" msprop:Generator_ColumnVarNameInTable="columnBook_name" msprop:Generator_ColumnPropNameInRow="Book_name" msprop:Generator_ColumnPropNameInTable="Book_nameColumn" msprop:Generator_UserColumnName="Book_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Return_Date" msprop:Generator_ColumnVarNameInTable="columnBook_Return_Date" msprop:Generator_ColumnPropNameInRow="Book_Return_Date" msprop:Generator_ColumnPropNameInTable="Book_Return_DateColumn" msprop:Generator_UserColumnName="Book_Return_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Finetbl" msprop:Generator_TableClassName="FinetblDataTable" msprop:Generator_TableVarName="tableFinetbl" msprop:Generator_RowChangedName="FinetblRowChanged" msprop:Generator_TablePropName="Finetbl" msprop:Generator_RowDeletingName="FinetblRowDeleting" msprop:Generator_RowChangingName="FinetblRowChanging" msprop:Generator_RowEvHandlerName="FinetblRowChangeEventHandler" msprop:Generator_RowDeletedName="FinetblRowDeleted" msprop:Generator_RowClassName="FinetblRow" msprop:Generator_UserTableName="Finetbl" msprop:Generator_RowEvArgName="FinetblRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="M_id" msprop:Generator_ColumnVarNameInTable="columnM_id" msprop:Generator_ColumnPropNameInRow="M_id" msprop:Generator_ColumnPropNameInTable="M_idColumn" msprop:Generator_UserColumnName="M_id" type="xs:int" minOccurs="0" />
+              <xs:element name="M_Type" msprop:Generator_ColumnVarNameInTable="columnM_Type" msprop:Generator_ColumnPropNameInRow="M_Type" msprop:Generator_ColumnPropNameInTable="M_TypeColumn" msprop:Generator_UserColumnName="M_Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Name" msprop:Generator_ColumnVarNameInTable="columnM_Name" msprop:Generator_ColumnPropNameInRow="M_Name" msprop:Generator_ColumnPropNameInTable="M_NameColumn" msprop:Generator_UserColumnName="M_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Days_Delayed" msprop:Generator_ColumnVarNameInTable="columnDays_Delayed" msprop:Generator_ColumnPropNameInRow="Days_Delayed" msprop:Generator_ColumnPropNameInTable="Days_DelayedColumn" msprop:Generator_UserColumnName="Days_Delayed" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_Fine" msprop:Generator_ColumnVarNameInTable="columnTotal_Fine" msprop:Generator_ColumnPropNameInRow="Total_Fine" msprop:Generator_ColumnPropNameInTable="Total_FineColumn" msprop:Generator_UserColumnName="Total_Fine" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Addbooktbl1" msprop:Generator_TableClassName="Addbooktbl1DataTable" msprop:Generator_TableVarName="tableAddbooktbl1" msprop:Generator_TablePropName="Addbooktbl1" msprop:Generator_RowDeletingName="Addbooktbl1RowDeleting" msprop:Generator_RowChangingName="Addbooktbl1RowChanging" msprop:Generator_RowEvHandlerName="Addbooktbl1RowChangeEventHandler" msprop:Generator_RowDeletedName="Addbooktbl1RowDeleted" msprop:Generator_UserTableName="Addbooktbl1" msprop:Generator_RowChangedName="Addbooktbl1RowChanged" msprop:Generator_RowEvArgName="Addbooktbl1RowChangeEvent" msprop:Generator_RowClassName="Addbooktbl1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Book_id" msprop:Generator_ColumnVarNameInTable="columnBook_id" msprop:Generator_ColumnPropNameInRow="Book_id" msprop:Generator_ColumnPropNameInTable="Book_idColumn" msprop:Generator_UserColumnName="Book_id" type="xs:int" />
+              <xs:element name="Book_name" msprop:Generator_ColumnVarNameInTable="columnBook_name" msprop:Generator_ColumnPropNameInRow="Book_name" msprop:Generator_ColumnPropNameInTable="Book_nameColumn" msprop:Generator_UserColumnName="Book_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_author_name" msprop:Generator_ColumnVarNameInTable="columnBook_author_name" msprop:Generator_ColumnPropNameInRow="Book_author_name" msprop:Generator_ColumnPropNameInTable="Book_author_nameColumn" msprop:Generator_UserColumnName="Book_author_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_publication" msprop:Generator_ColumnVarNameInTable="columnBook_publication" msprop:Generator_ColumnPropNameInRow="Book_publication" msprop:Generator_ColumnPropNameInTable="Book_publicationColumn" msprop:Generator_UserColumnName="Book_publication" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_price" msprop:Generator_ColumnVarNameInTable="columnBook_price" msprop:Generator_ColumnPropNameInRow="Book_price" msprop:Generator_ColumnPropNameInTable="Book_priceColumn" msprop:Generator_UserColumnName="Book_price" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_quantity" msprop:Generator_ColumnVarNameInTable="columnBook_quantity" msprop:Generator_ColumnPropNameInRow="Book_quantity" msprop:Generator_ColumnPropNameInTable="Book_quantityColumn" msprop:Generator_UserColumnName="Book_quantity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Available_quantity" msprop:Generator_ColumnVarNameInTable="columnAvailable_quantity" msprop:Generator_ColumnPropNameInRow="Available_quantity" msprop:Generator_ColumnPropNameInTable="Available_quantityColumn" msprop:Generator_UserColumnName="Available_quantity" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Returnbooktbl1" msprop:Generator_TableClassName="Returnbooktbl1DataTable" msprop:Generator_TableVarName="tableReturnbooktbl1" msprop:Generator_TablePropName="Returnbooktbl1" msprop:Generator_RowDeletingName="Returnbooktbl1RowDeleting" msprop:Generator_RowChangingName="Returnbooktbl1RowChanging" msprop:Generator_RowEvHandlerName="Returnbooktbl1RowChangeEventHandler" msprop:Generator_RowDeletedName="Returnbooktbl1RowDeleted" msprop:Generator_UserTableName="Returnbooktbl1" msprop:Generator_RowChangedName="Returnbooktbl1RowChanged" msprop:Generator_RowEvArgName="Returnbooktbl1RowChangeEvent" msprop:Generator_RowClassName="Returnbooktbl1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="M_id" msprop:Generator_ColumnVarNameInTable="columnM_id" msprop:Generator_ColumnPropNameInRow="M_id" msprop:Generator_ColumnPropNameInTable="M_idColumn" msprop:Generator_UserColumnName="M_id" type="xs:int" minOccurs="0" />
+              <xs:element name="M_type" msprop:Generator_ColumnVarNameInTable="columnM_type" msprop:Generator_ColumnPropNameInRow="M_type" msprop:Generator_ColumnPropNameInTable="M_typeColumn" msprop:Generator_UserColumnName="M_type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_name" msprop:Generator_ColumnVarNameInTable="columnM_name" msprop:Generator_ColumnPropNameInRow="M_name" msprop:Generator_ColumnPropNameInTable="M_nameColumn" msprop:Generator_UserColumnName="M_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dept" msprop:Generator_ColumnVarNameInTable="columnDept" msprop:Generator_ColumnPropNameInRow="Dept" msprop:Generator_ColumnPropNameInTable="DeptColumn" msprop:Generator_UserColumnName="Dept" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_contact" msprop:Generator_ColumnVarNameInTable="columnM_contact" msprop:Generator_ColumnPropNameInRow="M_contact" msprop:Generator_ColumnPropNameInTable="M_contactColumn" msprop:Generator_UserColumnName="M_contact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_email" msprop:Generator_ColumnVarNameInTable="columnM_email" msprop:Generator_ColumnPropNameInRow="M_email" msprop:Generator_ColumnPropNameInTable="M_emailColumn" msprop:Generator_UserColumnName="M_email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_name" msprop:Generator_ColumnVarNameInTable="columnBook_name" msprop:Generator_ColumnPropNameInRow="Book_name" msprop:Generator_ColumnPropNameInTable="Book_nameColumn" msprop:Generator_UserColumnName="Book_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Return_Date" msprop:Generator_ColumnVarNameInTable="columnBook_Return_Date" msprop:Generator_ColumnPropNameInRow="Book_Return_Date" msprop:Generator_ColumnPropNameInTable="Book_Return_DateColumn" msprop:Generator_UserColumnName="Book_Return_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Issuebooktbl1" msprop:Generator_TableClassName="Issuebooktbl1DataTable" msprop:Generator_TableVarName="tableIssuebooktbl1" msprop:Generator_TablePropName="Issuebooktbl1" msprop:Generator_RowDeletingName="Issuebooktbl1RowDeleting" msprop:Generator_RowChangingName="Issuebooktbl1RowChanging" msprop:Generator_RowEvHandlerName="Issuebooktbl1RowChangeEventHandler" msprop:Generator_RowDeletedName="Issuebooktbl1RowDeleted" msprop:Generator_UserTableName="Issuebooktbl1" msprop:Generator_RowChangedName="Issuebooktbl1RowChanged" msprop:Generator_RowEvArgName="Issuebooktbl1RowChangeEvent" msprop:Generator_RowClassName="Issuebooktbl1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="M_id" msprop:Generator_ColumnVarNameInTable="columnM_id" msprop:Generator_ColumnPropNameInRow="M_id" msprop:Generator_ColumnPropNameInTable="M_idColumn" msprop:Generator_UserColumnName="M_id" type="xs:int" />
+              <xs:element name="M_Type" msprop:Generator_ColumnVarNameInTable="columnM_Type" msprop:Generator_ColumnPropNameInRow="M_Type" msprop:Generator_ColumnPropNameInTable="M_TypeColumn" msprop:Generator_UserColumnName="M_Type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Name" msprop:Generator_ColumnVarNameInTable="columnM_Name" msprop:Generator_ColumnPropNameInRow="M_Name" msprop:Generator_ColumnPropNameInTable="M_NameColumn" msprop:Generator_UserColumnName="M_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Department" msprop:Generator_ColumnVarNameInTable="columnDepartment" msprop:Generator_ColumnPropNameInRow="Department" msprop:Generator_ColumnPropNameInTable="DepartmentColumn" msprop:Generator_UserColumnName="Department" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Contact" msprop:Generator_ColumnVarNameInTable="columnM_Contact" msprop:Generator_ColumnPropNameInRow="M_Contact" msprop:Generator_ColumnPropNameInTable="M_ContactColumn" msprop:Generator_UserColumnName="M_Contact" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="M_Email" msprop:Generator_ColumnVarNameInTable="columnM_Email" msprop:Generator_ColumnPropNameInRow="M_Email" msprop:Generator_ColumnPropNameInTable="M_EmailColumn" msprop:Generator_UserColumnName="M_Email" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Name" msprop:Generator_ColumnVarNameInTable="columnBook_Name" msprop:Generator_ColumnPropNameInRow="Book_Name" msprop:Generator_ColumnPropNameInTable="Book_NameColumn" msprop:Generator_UserColumnName="Book_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Issue_Date" msprop:Generator_ColumnVarNameInTable="columnBook_Issue_Date" msprop:Generator_ColumnPropNameInRow="Book_Issue_Date" msprop:Generator_ColumnPropNameInTable="Book_Issue_DateColumn" msprop:Generator_UserColumnName="Book_Issue_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Due_Date" msprop:Generator_ColumnVarNameInTable="columnDue_Date" msprop:Generator_ColumnPropNameInRow="Due_Date" msprop:Generator_ColumnPropNameInTable="Due_DateColumn" msprop:Generator_UserColumnName="Due_Date" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Membertbl" />
+      <xs:field xpath="mstns:Member_ID" />
+    </xs:unique>
+    <xs:unique name="Addbooktbl_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Addbooktbl" />
+      <xs:field xpath="mstns:Book_id" />
+    </xs:unique>
+    <xs:unique name="Addbooktbl1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Addbooktbl1" />
+      <xs:field xpath="mstns:Book_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
